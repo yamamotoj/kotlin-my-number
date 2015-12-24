@@ -10,7 +10,7 @@ fun main(args: Array<String>){
     check(!MyNumberValidator.validate("123456789015"))
     check(!MyNumberValidator.validate("123456789016"))
     check(!MyNumberValidator.validate("123456789017"))
-    check(!MyNumberValidator.validate("123456789018"))
+    check(MyNumberValidator.validate("123456789018"))
     check(!MyNumberValidator.validate("123456789019"))
     check(MyNumberValidator.validate("023456789013"))
 }
